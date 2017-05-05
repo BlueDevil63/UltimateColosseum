@@ -12,7 +12,6 @@ public class Builder : MonoBehaviour {
     void Start() {
 
         Tiling(x, y);
-
     }
 
     public void Tiling(int x, int y)
@@ -28,7 +27,6 @@ public class Builder : MonoBehaviour {
                 string t_name = r + "by" + w;
                 tile.name = t_name;
                 tile.transform.parent = parantObj.transform;
-               
             }
         }
     }

@@ -78,7 +78,7 @@
     <Compile Include="Assets\Scripts\TileBase\Builder.cs" />
     <Compile Include="Assets\Scripts\TileBase\Edge.cs" />
     <Compile Include="Assets\Scripts\TileBase\Node.cs" />
-    <Compile Include="Assets\Scripts\TileBase\Tile.cs" />
+    <Compile Include="Assets\Scripts\TileBase\PathFinder.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
