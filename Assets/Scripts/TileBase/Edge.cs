@@ -1,24 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-namespace PathFind
+namespace Grid
 {
-    public class Edge
+    public class Edge : MonoBehaviour
     {
-        public Node from;
-        public Node to;
+        int x;
+        int y;
+        int z;
 
         public Edge()
         {
-            from = new Node();
-            to = new Node();
+            x = 0;
+            y = 0;
+            z = 0;
         }
 
-        public Edge (Node node_from, Node node_to)
+        public Edge(int a, int b, int c)
         {
-            from = node_from;
-            to = node_to;
+            x = a;
+            y = b;
+            z = c;
         }
     }
 }
